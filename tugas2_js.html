@@ -82,7 +82,7 @@ Take Home Pay = Gaji Kotor - Zakat Profesi
             let tunjanganKesehatan = 0.1 * gajipokok;
             let gajikotor = gajipokok + tunjanganJabatan + tunjanganKesehatan;
             //
-            zakatProfesi = (agama == 'Muslim' && gajipokok >= 7000000) ? 0.025 * gajikotor :0;
+            zakatProfesi = (agama == 'Muslim' && gajikotor >= 7000000) ? 0.025 * gajikotor :0;
             //
             let takehomePay = gajikotor - zakatProfesi;
             //cetak
